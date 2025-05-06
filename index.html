@@ -9,11 +9,8 @@
       rel="stylesheet"
     />
     <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      integrity="sha512-pQUJpGlk0DKnvRLRRvnFubKKKWDxMDEeTHR+M0TJY6DDzyLykE9kPHmEoXpI+ZqAZMGLbiA7n9W9pQlJrG4W9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -33,6 +30,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
@@ -49,44 +49,91 @@
       </div>
     </nav>
 
-    <!-- Main Content -->
-    <main class="container text-center mt-5 pt-5">
-      <section class="mb-5">
-        <h1 class="display-4">Welcome!</h1>
-        <p class="lead">
-          This is a simple portfolio to showcase my work, resume, and contact
-          info.
-        </p>
-        <div class="mt-4">
-          <a
-            href="https://instagram.com/haydenhuntley_"
-            target="_blank"
-            class="text-decoration-none me-3"
-          >
-            <i class="fab fa-instagram fa-2x"></i>
-          </a>
-        </div>
-      </section>
+    <!-- Hero Section -->
+    <section class="bg-light text-center py-5">
+      <div class="container">
+        <img
+          src="images/headshot.jpg"
+          class="rounded-circle mb-3"
+          width="150"
+          alt="Hayden Huntley"
+        />
+        <h1 class="display-5">Hayden Huntley</h1>
+        <p class="lead">Business Analytics • Finance • Risk Management</p>
+        <a href="resume.html" class="btn btn-primary mt-3">View My Resume</a>
+      </div>
+    </section>
 
-      <section class="my-5">
-        <h2>Featured</h2>
-        <p>
-          Explore my academic background and technical skills on the other pages
-          of this site.
-        </p>
-      </section>
-    </main>
+    <!-- Featured Sections -->
+    <section class="container my-5">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <i class="fas fa-user fa-2x mb-3 text-primary"></i>
+              <h5 class="card-title">About Me</h5>
+              <a href="about.html" class="stretched-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <i class="fas fa-book fa-2x mb-3 text-primary"></i>
+              <h5 class="card-title">Classes</h5>
+              <a href="classes.html" class="stretched-link">View Courses</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <i class="fas fa-file-alt fa-2x mb-3 text-primary"></i>
+              <h5 class="card-title">Resume</h5>
+              <a href="resume.html" class="stretched-link">See Resume</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <i class="fas fa-envelope fa-2x mb-3 text-primary"></i>
+              <h5 class="card-title">Contact</h5>
+              <a href="contact.html" class="stretched-link">Get in Touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-dark text-light text-center py-3 mt-5">
-      <a
-        href="https://instagram.com/haydenhuntley_"
-        target="_blank"
-        class="text-light me-2"
-      >
-        <i class="fab fa-instagram"></i>
-      </a>
-      <small>&copy; 2025 Hayden Huntley</small>
+      <div class="container">
+        <div class="mb-2">
+          <a
+            href="https://www.linkedin.com/in/hayden-huntley"
+            target="_blank"
+            class="text-light me-3"
+          >
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+          <a
+            href="https://github.com/haydenhuntley"
+            target="_blank"
+            class="text-light me-3"
+          >
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+          <a
+            href="https://instagram.com/haydenhuntley_"
+            target="_blank"
+            class="text-light"
+          >
+            <i class="fab fa-instagram fa-lg"></i>
+          </a>
+        </div>
+        <small>&copy; 2025 Hayden Huntley</small>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
