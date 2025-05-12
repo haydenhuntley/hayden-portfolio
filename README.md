@@ -7,9 +7,6 @@ This project is a personal portfolio website built using HTML, CSS, and Bootstra
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies](#technologies)
-- [File Structure](#file-structure)
-- [Setup Instructions](#setup-instructions)
-- [Live Site](#live-site)
 
 ## Overview
 
